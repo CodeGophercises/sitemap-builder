@@ -14,6 +14,7 @@ import (
 )
 
 var rootPage = flag.String("url", "", "the domain url")
+var depth = flag.Int("depth", 10, "max depth of link visiting")
 
 func sameDomain(urlStr string, domain string) bool {
 	u, err := url.Parse(urlStr)
@@ -75,7 +76,12 @@ func main() {
 	rootLink := expandLink(*rootPage, scheme, domain)
 	links = append(links, rootLink)
 	visited[rootLink] = struct{}{}
+	curDepth := 0
 	for len(links) > 0 {
+		curDepth += 1
+		if curDepth > *depth {
+			break
+		}
 		// Pop out the first element from queue
 		link := links[0]
 		links = links[1:]
