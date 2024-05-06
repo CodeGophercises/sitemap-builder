@@ -1,0 +1,6 @@
+github.com/CodeGophercises/html-link-parser v0.0.0-20240506131758-421cb749c5b3 h1:5Yxo9ilV2SmaBMtsfc7SR99306gHerlaZLezdrbXZd8=
+github.com/CodeGophercises/html-link-parser v0.0.0-20240506131758-421cb749c5b3/go.mod h1:GS/LgwNNJVCLM6V7vzGPjU3SVjH4aAlpmuenvc6O+0A=
+github.com/CodeGophercises/html-link-parser v0.0.0-20240506171946-48d61adda909 h1:TDPSz5nrEas5UXUEivbo1Lj/wZFgJSDw3H5xwpBYe+E=
+github.com/CodeGophercises/html-link-parser v0.0.0-20240506171946-48d61adda909/go.mod h1:GS/LgwNNJVCLM6V7vzGPjU3SVjH4aAlpmuenvc6O+0A=
+golang.org/x/net v0.25.0 h1:d/OCCoBEUq33pjydKrGQhw7IlUPI2Oylr+8qLx49kac=
+golang.org/x/net v0.25.0/go.mod h1:JkAGAh7GEvH74S6FOH42FLoXpXbE/aqXSrIQjXgsiwM=
